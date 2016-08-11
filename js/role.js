@@ -69,9 +69,9 @@ $(document).ready(function() {
         { 
           "data": "FUNC_NAME" 
         },
-        { "class": "col_center_class",
+        { "class": "col_opr_class",
           "data": null,
-          "defaultContent": "<img src='../images/mis_icon_01.png' id='table_info'><img src='../images/mis_icon_02.png' id='table_update'>"
+          "defaultContent": "<img src='../images/mis_button_19.png' id='table_info'><img src='../images/mis_button_05.png' id='table_update'><img src='../images/mis_button_07.png' id='table_update'>"
         },
         { 
           "visible": false,
@@ -126,11 +126,12 @@ $(document).ready(function() {
       {
         "orderable": false,
          "targets": 4,
-         "sWidth": "50%"
+         "sWidth": "40%"
       },
       {
         "orderable": false,
-        "targets": 5
+        "targets": 5,
+        "sWidth": "30%"
       }
      ],//第一列与第二列禁止排序
       "order": [

@@ -69,9 +69,9 @@ $(document).ready(function() {
           "data": "FUNC_NAME" 
         },
         { "data": "NOTE" },
-        { "class": "col_center_class",
+        { "class": "col_opr_class",
           "data": null,
-          "defaultContent": "<img src='../images/mis_icon_01.png' id='updRow'><img src='../images/mis_icon_02.png' id='infoRow'>"
+          "defaultContent": "<img src='../images/mis_button_05.png' id='updRow'><img src='../images/mis_button_07.png' id='infoRow'>"
         },
         { 
           "visible": false,
@@ -130,11 +130,12 @@ $(document).ready(function() {
       {
         "orderable": false,
          "targets": 4,
-         "sWidth": "50%"
+         "sWidth": "45%"
       },
       {
         "orderable": false,
         "targets": 5,
+        "sWidth": "25%"
        /* "render" : function(data, type,row) {
             var id = '"' + row.id + '"';
             var html = "<a href='javascript:void(0);'  class='delete btn btn-default btn-xs'  ><i class='fa fa-times'></i> 查看</a>"

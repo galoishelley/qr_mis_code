@@ -134,7 +134,6 @@ $(document).ready(function() {
        [1, "desc"]
     ],
     "dom": '<"top">rt<"table_bottom"ip<"#goon">><"clear">'
-
   });
 
   $("div#goon").html('<input type="text" name="jumpgo" id="jumpgo"/><button class="btn btn-default" id="btn_jumpgo">确认</button>');

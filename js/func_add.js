@@ -59,7 +59,7 @@ $(document).ready(function() {
     //解决表单验证
     $("#func_form").submit(function(ev){ev.preventDefault();});
 
-    $('#func_add_submit').click( function () {
+    $('#addSubmit').click( function () {
        var bootstrapValidator = $("#func_form").data('bootstrapValidator');
        bootstrapValidator.validate();
        if(bootstrapValidator.isValid()){
@@ -133,7 +133,7 @@ alert(JSON.stringify(j));
       return false;
     });
 
-    $("#func_add_cancel").click(function(){
+    $("#addCancel").click(function(){
       $.cookie("func_data", null);
       window.location.href="func.html"; 
     });

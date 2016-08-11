@@ -188,7 +188,7 @@ table{
 }
 
 .table>tbody>tr>td{
-	padding: 5px 4px;
+	padding: 1px 4px;
 	vertical-align: middle;
     /*overflow: hidden;*/
 }
@@ -234,6 +234,11 @@ table img{
 
 .col_center_class{
 	text-align:center;
+}
+
+.col_opr_class{
+	text-align:center;
+	padding: 0px 4px;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -439,7 +444,7 @@ form table td{
 #role_func_div label{
 	width:25%;
 	margin:5px 0px;
-	margin-left: 20px;
+	margin-left: 125px;
 
 }
 

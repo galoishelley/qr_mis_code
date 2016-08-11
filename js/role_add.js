@@ -15,7 +15,7 @@ $(document).ready(function() {
         success: function (ret) {
             if(ret){
               $("#role_func_div").html("");//清空info内容
-              $("#role_func_div").append('<label style="width:70%;">权限<span class="span-red">*</span></label>');
+              // $("#role_func_div").append('<label style="width:70%;">权限<span class="span-red">*</span></label>');
               $.each(ret.data, function(i, item) {
                   //alert(item.FUNC_ID);
                   //清空info内容
@@ -106,13 +106,13 @@ $(document).ready(function() {
         }
     });
 
-    $("#role_add_cancel").on("click", function(){
+    $("#addCancel").click(function(){
       window.location.href="role.html"; 
     });
 
     //解决表单验证
     $("#role_form").submit(function(ev){ev.preventDefault();});
-    $('#role_add_submit').click( function () {
+    $('#func_add_submit').click( function () {
        var bootstrapValidator = $("#role_form").data('bootstrapValidator');
        bootstrapValidator.validate();
        alert(bootstrapValidator.validate());

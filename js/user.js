@@ -77,9 +77,9 @@ $(document).ready(function() {
           "data": "ROLE_NAME" 
         },
         { "data": "USER_ADDR" },
-        { "class": "col_center_class",
+        { "class": "col_opr_class",
           "data": null,
-          "defaultContent": "<img src='../images/mis_icon_01.png' id='table_info'><img src='../images/mis_icon_02.png' id='table_update'><img src='../images/mis_icon_02.png' id='table_update'>"
+          "defaultContent": "<img src='../images/mis_button_05.png' id='table_info'><img src='../images/mis_button_07.png' id='table_update'><img src='../images/mis_button_09.png' id='table_update'>"
         },
         { 
           "visible": false,
@@ -157,12 +157,12 @@ $(document).ready(function() {
         {
           "orderable": false,
            "targets": 8,
-           "sWidth": "25%"
+           "sWidth": "20%"
         },
         {
           "orderable": false,
           "targets": 9,
-          "sWidth": "20%"
+          "sWidth": "25%"
         }
        ],//第一列与第二列禁止排序
       "order": [

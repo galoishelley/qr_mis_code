@@ -17,7 +17,7 @@ class Login
 		$this->users = new User();
 		$this->ilog = new iLog_DB();
 		$this->date = date("Y-m-d H:i:s",time());
-		
+
 		if (isset ( $_POST ['user_name'] ) && isset ( $_POST ['pwd'] ))
 		{
 			

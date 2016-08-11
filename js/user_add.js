@@ -29,13 +29,13 @@ $(document).ready(function() {
       }
     });
 
-    $("#user_add_cancel").on("click", function(){
+    $("#addCancel").click(function(){
       window.location.href="user.html"; 
     });
 
     //解决表单验证
     $("#user_form").submit(function(ev){ev.preventDefault();});
-    $('#user_add_submit').click( function () {
+    $('#addSubmit').click( function () {
        var bootstrapValidator = $("#user_form").data('bootstrapValidator');
        bootstrapValidator.validate();
        alert(bootstrapValidator.validate());
