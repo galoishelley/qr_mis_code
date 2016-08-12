@@ -18,7 +18,7 @@ $(document).ready(function() {
       // "sPaginationType": "full_numbers", //用于指定分页器风格
       "sPaginationType": "full_numbers",
       //"aLengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
-      "iDisplayLength": 14,  //确定选择每页展示个数列表和默认每页展示个数设置
+      "iDisplayLength": 13,  //确定选择每页展示个数列表和默认每页展示个数设置
       // "pagingType": "scrolling",
        // "sPaginationType": "jPaginator",
       //"serverSide": true,
@@ -26,7 +26,7 @@ $(document).ready(function() {
       // bScrollInfinite: true,
       // bSortClasses: false, //不清楚是做什么用的，如果处理大量数据时，必须关闭
 
-      //sScrollX: "100%",
+      "sScrollX": true,
       //bScrollCollapse: true,
 
       // sScrollY: "200px",

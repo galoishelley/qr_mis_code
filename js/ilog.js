@@ -33,7 +33,7 @@ $(document).ready(function() {
     // "sPaginationType": "full_numbers", //用于指定分页器风格
     "sPaginationType": "full_numbers",
     //"aLengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
-    "iDisplayLength": 13,  //确定选择每页展示个数列表和默认每页展示个数设置
+    "iDisplayLength": 12,  //确定选择每页展示个数列表和默认每页展示个数设置
     // "pagingType": "scrolling",
      // "sPaginationType": "jPaginator",
     //"serverSide": true,
