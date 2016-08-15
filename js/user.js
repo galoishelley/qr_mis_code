@@ -116,7 +116,7 @@ $(document).ready(function() {
         {
            "orderable": false,
            "targets": 0,
-           "sWidth": "5%"
+           "sWidth": "3%"
            
         },
         {
@@ -175,10 +175,10 @@ $(document).ready(function() {
     });
 
     $("div#goon").html('<input type="text" name="jumpgo" id="jumpgo"/><button class="btn btn-default" id="btn_jumpgo">确认</button>');
-    $("div.table_bottom").addClass('col-md-12');
-    $("div#dataTables-example_info").addClass('col-md-3');
-    $("div#dataTables-example_paginate").addClass('col-md-7');
-    $("div#goon").addClass('dataTables_paginate col-md-2');
+    $("div.table_bottom").addClass('col-sm-12 col-md-12');
+    $("div#dataTables-example_info").addClass('col-sm-12 col-md-3 pull-left');
+    $("div#dataTables-example_paginate").addClass('col-sm-6 col-md-7 pull-left');
+    $("div#goon").addClass('col-sm-6 col-md-2');
     
     //添加索引列
     _table.on('order.dt search.dt',

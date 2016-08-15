@@ -26,7 +26,7 @@ $(document).ready(function() {
       // bScrollInfinite: true,
       // bSortClasses: false, //不清楚是做什么用的，如果处理大量数据时，必须关闭
 
-      //sScrollX: "100%",
+      // "sScrollX": true,
       //bScrollCollapse: true,
 
       // sScrollY: "200px",
@@ -107,21 +107,22 @@ $(document).ready(function() {
       {
          "orderable": false,
          "targets": 0,
-         "sWidth": "5%"
+         // "sWidth": "5%"
          
       },
       {
          "orderable": false,
          "targets": 1,
-         "sWidth": "5%"
+         // "sWidth": "5%"
       },
       {
+        "orderable": true,
          "targets": 2,
-         "sWidth": "15%"
+         // "sWidth": "15%"
       },
       {
          "targets": 3,
-         "sWidth": "15%"
+         // "sWidth": "15%"
       },
       {
         "orderable": false,
@@ -181,10 +182,10 @@ $(document).ready(function() {
     });
 
     $("div#goon").html('<input type="text" name="jumpgo" id="jumpgo"/><button class="btn btn-default" id="btn_jumpgo">确认</button>');
-    $("div.table_bottom").addClass('col-md-12');
-    $("div#dataTables-example_info").addClass('col-md-3');
-    $("div#dataTables-example_paginate").addClass('col-md-7');
-    $("div#goon").addClass('dataTables_paginate col-md-2');
+    $("div.table_bottom").addClass('col-sm-12 col-md-12');
+    $("div#dataTables-example_info").addClass('col-sm-12 col-md-3 pull-left');
+    $("div#dataTables-example_paginate").addClass('col-sm-6 col-md-7 pull-left');
+    $("div#goon").addClass('col-sm-6 col-md-2');
     
     //添加索引列
     _table.on('order.dt search.dt',
