@@ -484,3 +484,7 @@ form table td{
     background-color: #063190;
     color: #FFFFFF;
 }
+
+.navbar-default .sidebar{
+	margin-top: 50px;
+}
