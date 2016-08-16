@@ -77,10 +77,26 @@
 }
 
 .navbar-form .form-control{
-	min-width: 450px;
+	/*min-width: 450px;*/
 	background-color: #FFFFFF;
 }
 
+/*.navbar-form{
+	width: 100%;
+}
+
+.input-group{
+	width: 100%;
+}
+
+.form-group,.has-feedback,input{
+	width: 100%;
+}
+
+.input{
+	width: 100%;
+}
+*/
 .nav-top-2{
 	border-left: 1px solid #c7c7c8;
 	background-color: #FFFFFF;
@@ -190,6 +206,10 @@ table{
 	vertical-align: middle;
 	white-space: nowrap;
     /*overflow: hidden;*/
+}
+
+table.dataTable{
+	margin-bottom: 0px !important;
 }
 
 table.dataTable thead > tr > th {
