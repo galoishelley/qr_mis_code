@@ -508,3 +508,11 @@ form table td{
 .navbar-default .sidebar{
 	margin-top: 50px;
 }
+
+.navbar .nav-top-1 li{
+	padding:0px 10px;
+}
+
+.navbar-form{
+	padding: 0px 25px;
+}
