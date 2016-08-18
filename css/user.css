@@ -210,6 +210,7 @@ table{
 
 table.dataTable{
 	margin-bottom: 0px !important;
+	margin-top:  0px !important;
 }
 
 table.dataTable thead > tr > th {
